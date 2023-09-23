@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COPY TODO</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <h2>Building a To-Do List Application</h2>
+        <hr>
+        <div id="inputBtn">
+            <input type="text" placeholder="Enter your tasks" id="input">
+            <select name="" id="priority">
+                <option disabled selected>Select priority</option>
+                <option>High </option>
+                <option>Medium</option>
+                <option>Low</option>
+            </select>
+            <label for="date">Due Date: </label>
+            <input type="date" id="date" min="" max="2024-12-31">
+        </div>
+        <button type="submit" id="btn">Add task</button>
+
+        <table border="">
+            <tr class="task">
+                <th>Pending Tasks</th>
+                <th>Completed Tasks</th>
+            </tr>
+            <tr>
+                <td class="pendingTask">
+                    <!-- Empty cell for pending tasks -->
+                </td>
+                <td class="completeTask">
+                    <!-- Empty cell for completed tasks -->
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

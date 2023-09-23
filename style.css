@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(197, 191, 254);
+}
+#container{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    height: 96.5vh;
+    background-color: rgb(177, 255, 252);
+}
+#container h2{
+    margin-bottom: 5px;
+}
+#inputBtn{
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin:8px auto 0 auto;
+    justify-content: center;
+}
+#inputBtn #input, #priority, #date{
+    height: 25px;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 1px solid red;
+}
+#input{
+    width: 30%;
+}
+#priority{
+    user-select: none;
+    padding: 0;
+    width: 15%;
+}
+#date{
+    user-select: none;
+    width: 14%;
+}
+button{
+    margin-top: 10px;
+    width: 50%;
+    padding:5px 10px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+.div{
+    text-align: justify;
+    margin: 4px 0;
+    justify-content: space-between;
+
+    display: flex;
+    align-items: center;
+}
+.deleteIcon{
+    user-select: none;
+    cursor:default;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+.checkbox{
+    margin: 5px 10px;
+}
+table{
+    margin:15px auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+.task{
+    height: 35px;
+}
+td{
+    width: 50%;
+} 
